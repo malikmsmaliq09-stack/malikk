@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial membuat web</title>
+    <style>
+        :root {
+            --bg-color: #0b0e14;
+            --card-bg: #161b22;
+            --accent-orange: #ff8c00;
+            --text-main: #e6edf3;
+            --text-dim: #8b949e;
+            --border-color: #30363d;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h1 {
+            color: var(--accent-orange);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: var(--accent-orange);
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 10px;
+            margin-top: 40px;
+        }
+
+        .info-box {
+            background-color: var(--card-bg);
+            border-left: 5px solid var(--accent-orange);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        .info-box p {
+            margin: 5px 0;
+        }
+
+        .code-block {
+            background-color: #0d1117;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 15px;
+font-family: 'Courier New', Courier, monospace;
+            color: #79c0ff;
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: var(--card-bg);
+        }
+
+        th, td {
+            border: 1px solid var(--border-color);
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #1f242c;
+            color: var(--accent-orange);
+        }
+
+        tr:nth-child(even) {
+            background-color: #1c2128;
+        }
+
+        .summary {
+            font-style: italic;
+            color: var(--text-dim);
+            margin-top: 10px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>TUGAS BUAT WEB MALIK X TJKT</h1>
+    
+    <div class="info-box">
+        <p><strong>Nama:</strong>  M SALEHHUDIN AL MALIK</p>
+        <p><strong>Kelas:</strong>  10 TJKT</p>
+        <p><strong>Sekolah:</strong>  SMK Instan Mandiri , KBB</p>
+    </div>
+
+    <h2>1. Instruksi Command Prompt (CMD)</h2>
+    <p>CMD digunakan untuk berinteraksi dengan sistem Windows melalui baris perintah teks.</p>
+    <table>
+        <tr>
+            <th>Perintah</th>
+            <th>Fungsi</th>
+            <th>Ringkasan</th>
+        </tr>
+        <tr>
+            <td>ipconfig</td>
+            <td>Cek konfigurasi IP</td>
+            <td>Menampilkan IP address perangkat saat ini.</td>
+        </tr>
+        <tr>
+            <td>ping [alamat]</td>
+            <td>Tes koneksi</td>
+            <td>Mengirim paket data untuk cek respon server.</td>
+        </tr>
+        <tr>
+            <td>cls</td>
+            <td>Clear Screen</td>
+            <td>Membersihkan riwayat teks di layar CMD.</td>
+        </tr>
+    </table>
+
+    <h2>2. Komponen PC: Harga & Daya</h2>
+    <table>
+        <tr>
+            <th>Komponen</th>
+            <th>Pengertian & Fungsi</th>
+            <th>Daya (W)</th>
+            <th>Harga (Est)</th>
+        </tr>
+        <tr>
+            <td>Processor (CPU)</td>
+            <td>Otak pengolah data utama sistem.</td>
+            <td>65W - 150W</td>
+            <td>Rp2.5jt - 9jt</td>
+        </tr>
+        <tr>
+            <td>GPU (VGA)</td>
+            <td>Pengolah grafis dan visual berat.</td>
+            <td>150W - 450W</td>
+            <td>Rp4jt - 25jt</td>
+        </tr>
+    </table>
+
+    <h2>3. Networking Dasar</h2>
+    <div class="info-box">
+        <p><strong>IP Address:</strong> Identitas unik perangkat di jaringan.</p>
+        <p><strong>Subnet Mask:</strong> Memisahkan Network ID dan Host ID.</p>
+        <p><strong>Broadcast:</strong> Alamat untuk mengirim data ke semua host sekaligus.</p>
+        <span class="summary">Ringkasan: Tanpa ketiga hal ini, perangkat tidak bisa "mengobrol" dalam jaringan.</span>
+    </div>
+
+    <h2>4. Tabel Perhitungan Elektronika (20 Perangkat)</h2>
+    <p>Rumus Dasar: $P = V \times I$</p>
+    
+    <table>
+        <tr>
+            <th>No</th>
+            <th>Perangkat</th>
+            <th>Fungsi / Pengertian</th>
+            <th>Voltase</th>
+            <th>Watt (Est)</th>
+        </tr>
+        <tr><td>1</td><td>Lampu LED</td><td>Penerangan hemat energi</td><td>220V</td><td>10W</td></tr>
+        <tr><td>2</td><td>Charger HP</td><td>Pengisi daya baterai DC</td><td>5V-20V</td><td>33W</td></tr>
+        <tr><td>3</td><td>Laptop</td><td>Komputer portabel</td><td>19V</td><td>65W</td></tr>
+        <tr><td>4</td><td>Kipas Angin</td><td>Pendingin mekanik</td><td>220V</td><td>50W</td></tr>
+        <tr><td>5</td><td>Rice Cooker</td><td>Pemasak nasi elektrik</td><td>220V</td><td>400W</td></tr>
+        <tr><td>6</td><td>Kulkas</td><td>Pendingin makanan</td><td>220V</td><td>150W</td></tr>
+        <tr><td>7</td><td>Monitor PC</td><td>Output visual data</td><td>220V</td><td>30W</td></tr>
+        <tr><td>8</td><td>Router WiFi</td><td>Penyebar sinyal internet</td><td>12V</td><td>10W</td></tr>
+        <tr><td>9</td><td>Setrika</td><td>Perapi pakaian (panas)</td><td>220V</td><td>350W</td></tr>
+        <tr><td>10</td><td>Mesin Cuci</td><td>Pembersih pakaian otomatis</td><td>220V</td><td>300W</td></tr>
+        <tr><td>11</td><td>TV LED</td><td>Media informasi/hiburan</td><td>220V</td><td>75W</td></tr>
+        <tr><td>12</td><td>AC 1/2 PK</td><td>Pendingin ruangan aktif</td><td>220V</td><td>400W</td></tr>
+        <tr><td>13</td><td>Printer</td><td>Pencetak dokumen fisik</td><td>220V</td><td>30W</td></tr>
+        <tr><td>14</td><td>Speaker</td><td>Output suara audio</td><td>220V</td><td>50W</td></tr>
+        <tr><td>15</td><td>Blender</td><td>Penghalus makanan</td><td>220V</td><td>250W</td></tr>
+        <tr><td>16</td><td>Dispenser</td><td>Pemanas/Pendingin air</td><td>220V</td><td>350W</td></tr>
+        <tr><td>17</td><td>Microwave</td><td>Pemanas makanan cepat</td><td>220V</td><td>800W</td></tr>
+        <tr><td>18</td><td>Vacuum</td><td>Penghisap debu</td><td>220V</td><td>500W</td></tr>
+        <tr><td>19</td><td>Hair Dryer</td><td>Pengering rambut panas</td><td>220V</td><td>600W</td></tr>
+        <tr><td>20</td><td>CCTV</td><td>Kamera pengawas 24 jam</td><td>12V</td><td>8W</td></tr>
+    </table>
+
+</div>
+
+</body>
+</html>
